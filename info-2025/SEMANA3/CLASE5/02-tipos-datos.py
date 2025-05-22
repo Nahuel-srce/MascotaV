@@ -32,7 +32,7 @@ print(f"Lista: {lista} Tipo: {type(lista)}")
 tupla = (10.5, 48.5)
 print(f"tupla: {tupla} Tipo: {type(tupla)}")
 
-#Colección de elementos unicos (no se pueden repetir), y no tienen un orden definido, sin embargo si son mutables.
+#Conjunto -> colección de elementos unicos (no se pueden repetir), y no tienen un orden definido, sin embargo si son mutables.
 colores = {"azul, rojo, verde"} #set
 print(f"Colores: {colores} Tipo: {type(colores)}")
 
