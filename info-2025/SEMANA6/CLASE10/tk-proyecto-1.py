@@ -27,5 +27,6 @@ button.pack()
 submenu.add_command(label="Salir", command=ventana.quit)
 submenu.add_command(label="Saludar", command=mostrar_mensaje)
 
+
 # MOSTRAR LA VENTANA
 ventana.mainloop()
