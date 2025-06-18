@@ -114,8 +114,8 @@ class MascotaVirtual:
             return
 
         print(f"{self.nombre} despertó! ¿Cómo estará?")
-        self.felicidad = random.randint(0, 10)
-        self.hambre = random.randint(0, 10)
+        self.felicidad = random.randint(0, 30)
+        self.hambre = random.randint(0, 30)
 
         if self.hambre <= 5:
             print(self.imagen_disgustado)
@@ -159,16 +159,16 @@ interfaz_inicio = "\n╔══════════════════�
 
 interfaz_juego = """
 ╔══════════════════════════════════════╗
-║       Opciones disponibles:          ║
-║                                      ║
-║ 1 - Alimentar                        ║
-║ 2 - Jugar                            ║
-║ 3 - Sanar                            ║
-║ 4 - Mostrar información              ║
-║ 5 - Apagar luz (dormir)              ║
-║ 6 - Prender luz (despertar)          ║
-║ 7 - Salir                            ║
-║                                      ║
+║       Opciones disponibles:        ║
+║                                    ║
+║ 1 - Alimentar                      ║
+║ 2 - Jugar                          ║
+║ 3 - Sanar                          ║
+║ 4 - Mostrar información            ║
+║ 5 - Apagar luz (dormir)           ║
+║ 6 - Prender luz (despertar)       ║
+║ 7 - Salir                          ║
+║                                    ║
 ╚══════════════════════════════════════╝
 """
 
@@ -205,3 +205,14 @@ while True:
             print("❌ Opción no válida.")
     except ValueError:
         print("❗ Por favor ingrese un número válido.")
+
+
+# COMISIÓN 3 - GRUPO 2 - CarpinchOS
+
+#Integrantes:
+# • Ezequiel Ávalos
+# • Florencia Azcoaga
+# • Martina Kendik
+# • Micaela Jazmin Velázquez
+# • Nahuel Storace
+# • Romina Cáceres
