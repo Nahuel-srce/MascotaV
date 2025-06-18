@@ -145,30 +145,30 @@ class MascotaVirtual:
 
     def presentacion(self):
         print(
-            f"\n╔══════════════════════════════════════╗\n║ Te presento a tu mascota!          ║\n╚══════════════════════════════════════╝\n{self.imagen}\tSu nombre es {self.nombre}"
+            f"\n╔══════════════════════════════════════╗\n║ Te presento a tu mascota!            ║\n╚══════════════════════════════════════╝\n{self.imagen}\tSu nombre es {self.nombre}"
         )
 
     def despedida(self):
         print(
-            f"\n╔══════════════════════════════════════╗\n║ Nos vemos!                         ║\n╚══════════════════════════════════════╝\n{self.imagen}\n╔══════════════════════════════════════╗\n║ Juguemos otro día!                 ║\n╚══════════════════════════════════════╝\n"
+            f"\n╔══════════════════════════════════════╗\n║ Nos vemos!                            ║\n╚══════════════════════════════════════╝\n{self.imagen}\n╔══════════════════════════════════════╗\n║ Juguemos otro día!                 ║\n╚══════════════════════════════════════╝\n"
         )
 
 
 # Interfaces visuales
-interfaz_inicio = "\n╔══════════════════════════════════════╗\n║       Bienvenido a tu primera      ║\n║          mascota virtual!          ║\n╚══════════════════════════════════════╝\n"
+interfaz_inicio = "\n╔══════════════════════════════════════╗\n║       Bienvenido a tu primera        ║\n║          mascota virtual!            ║\n╚══════════════════════════════════════╝\n"
 
 interfaz_juego = """
 ╔══════════════════════════════════════╗
-║       Opciones disponibles:        ║
-║                                    ║
-║ 1 - Alimentar                      ║
-║ 2 - Jugar                          ║
-║ 3 - Sanar                          ║
-║ 4 - Mostrar información            ║
-║ 5 - Apagar luz (dormir)           ║
-║ 6 - Prender luz (despertar)       ║
-║ 7 - Salir                          ║
-║                                    ║
+║       Opciones disponibles:          ║
+║                                      ║
+║ 1 - Alimentar                        ║
+║ 2 - Jugar                            ║
+║ 3 - Sanar                            ║
+║ 4 - Mostrar información              ║
+║ 5 - Apagar luz (dormir)              ║
+║ 6 - Prender luz (despertar)          ║
+║ 7 - Salir                            ║
+║                                      ║
 ╚══════════════════════════════════════╝
 """
 
