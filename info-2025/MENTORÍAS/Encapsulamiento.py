@@ -23,7 +23,7 @@ class circulo:
             print("El valor de Pi debe ser un número")
 
     
-    
+
 circulo_uno = circulo(3.5)
 
 print(circulo_uno.calcularArea())
